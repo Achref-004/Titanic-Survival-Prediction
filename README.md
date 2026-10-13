@@ -1,5 +1,11 @@
 <div align="center">
-
+<p align="center">
+  <img
+    src="maxresdefault.jpg"
+    alt="BNA Platform logo"
+  >
+</p>
+  
 # Titanic Survival Prediction
 
 ### Comparing Decision Trees, Support Vector Machines, and K-Nearest Neighbors
@@ -118,6 +124,12 @@ The notebook constructs the following comparison table at runtime:
 | SVM | Accuracy computed in notebook; numeric value not saved in output |
 | KNN | Accuracy computed in notebook; numeric value not saved in output |
 
+<p align="center">
+  <img
+    src="Screenshot 2026-10-13 005629.png"
+    alt="BNA Platform logo"
+  >
+</p>
 
 ## Technologies
 
@@ -131,15 +143,9 @@ The notebook imports and uses:
 - scikit-learn
 - Jupyter Notebook or JupyterLab
 
-The imports used by the notebook are:
 
-```text
-numpy
-pandas
-matplotlib
-seaborn
-scikit-learn
-```
+
+
 
 ## Project Structure
 
@@ -150,7 +156,7 @@ The supplied project directory currently contains:
 └── Titanic Survival Prediction.ipynb
 ```
 
-`train.csv` is referenced by the notebook but is not present in the supplied directory snapshot.
+
 
 ## Installation and Setup
 
@@ -201,9 +207,6 @@ Open `Titanic Survival Prediction.ipynb` and run the cells from top to bottom.
 - The Decision Tree is constrained with `max_depth=3`.
 - The SVM uses an RBF kernel.
 - The notebook's train/test split configuration and complete feature pipeline are not available in the supplied file.
-- No `requirements.txt`, environment lockfile, dataset, or external data URL is included.
-
-For fully reproducible results, the project should preserve the exact dataset, feature-selection code, split parameters, scaler configuration, package versions, and numeric evaluation output.
 
 ## Limitations and Future Improvements
 
